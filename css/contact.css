@@ -1,0 +1,50 @@
+#contact{
+    background-image: url("../images/bottom-img.jpg");
+
+     color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+     margin-left: 479px;
+    align-items: center;
+
+}
+
+.contact-details{
+    width: 50%;
+    flex-direction: column;
+    text-align: left;
+}
+.contact-button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact-button > button{
+ border-radius: 15px;
+ border: none;
+ background-color: rgb(255, 196, 0);
+ padding: 10px 10px 10px 10px;
+ font-size: 1.2rem;
+}
+.sub-text > p{
+    font-size: 1.5rem;
+    width: 450px;
+}
+.main-text > h2{
+    font-size: 3rem;
+}
+
+@media (min-width: 300px) and (max-width:900px){
+    .contact{
+      margin: 0%;  
+      justify-content: center;
+      flex-direction: column;
+    }
+    .contact-details{
+        text-align: center;
+    }
+}

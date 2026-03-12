@@ -1,7 +1,8 @@
-body, html{
-
+body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
+
 #top_section{
 
     padding: 0;
@@ -40,8 +41,4 @@ h1, p{
     font-size: 3rem;
     align-items: start;
 
-}
-hr{
-    border: none;
-    height: 0.1px;
 }

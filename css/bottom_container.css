@@ -4,7 +4,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover; 
-    margin-top: 20px;
 }
 
 .img-skills > img{
@@ -37,8 +36,10 @@
     font-size: 1.5rem;
 }
 
-footer{
+.footer{
     color: aliceblue;
+    background-color: rgb(57, 62, 70);
+    width: 100%;
 }
 
 
